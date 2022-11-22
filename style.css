@@ -2,15 +2,34 @@ header, main, footer {
     background-color: blanchedalmond;
 }
 header div {
-    display:flex;
+    display: flex;
     align-items: center;
     gap: 1rem;
 }
 header {
     display: flex;
     align-items: center;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 li {
     list-style: none;
+}
+h1 {
+    font-size: 3em;
+    font-weight: 500;
+}
+nav ul{
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: lowercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: lightgoldenrodyellow;
+    padding: 1em;
+}
+nav a:hover {
+    background-color: blanchedalmond;
 }
