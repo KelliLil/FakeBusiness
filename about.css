@@ -1,0 +1,13 @@
+header, main {
+    background-color: blanchedalmond;
+}
+header div {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
