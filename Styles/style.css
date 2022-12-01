@@ -1,6 +1,19 @@
-header, main, footer {
-    background-color: blanchedalmond;
+:root {
+    --primary-color: #fd9b04;
 }
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-second {
+    background-color: #f7e1da;
+}
+
+.bg-third {
+    background-color: #a66b59;
+}
+
 header div {
     align-items: center;
     gap: 1rem;
@@ -20,11 +33,7 @@ nav a {
     text-transform: lowercase;
     font-size: 1.5em;
     font-weight: bold;
-    background-color: lightgoldenrodyellow;
     padding: 1em;
-}
-nav a:hover {
-    background-color: blanchedalmond;
 }
 
 .flex {
