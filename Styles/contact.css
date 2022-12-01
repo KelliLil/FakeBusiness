@@ -9,3 +9,11 @@
 .bg-second {
     background-color: var(--primary-second);
 }
+.flex {
+    display: flex;
+}
+
+.direction-col {
+    flex-direction: column;
+    
+}
