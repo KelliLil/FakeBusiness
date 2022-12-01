@@ -1,6 +1,7 @@
 :root {
     --primary-color: #fd9b04;
-    --primary-second: #a66b59;
+    --primary-second: #f7e1da;
+    --primary-third: #a66b59;
 }
 .bg-color {
     background-color: var(--primary-color);
@@ -9,11 +10,14 @@
 .bg-second {
     background-color: var(--primary-second);
 }
+
+.bg-third {
+    background-color: var(--primary-third);
+}
 .flex {
     display: flex;
 }
 
 .direction-col {
     flex-direction: column;
-    
 }
