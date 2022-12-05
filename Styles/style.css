@@ -60,4 +60,11 @@ label {
   border-width: 0;
 }
 
+@media  screen and (min-width: 600px) {
+    .flex {
+        display: flex;
+        align-items: center;
+        image-rendering: auto;
+    }
+}
     
