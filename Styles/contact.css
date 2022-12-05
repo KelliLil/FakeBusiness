@@ -16,8 +16,13 @@
 }
 .flex {
     display: flex;
+    padding: 1rem;
 }
 
 .direction-col {
     flex-direction: column;
+}
+
+header, main, footer {
+    padding: 1em;
 }
