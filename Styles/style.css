@@ -60,7 +60,4 @@ label {
   border-width: 0;
 }
 
-@media screen and (max-width:400px) {
-min-width: auto;
-}
     
