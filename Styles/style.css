@@ -72,7 +72,7 @@ footer {
     .flex {
         display: flex;
         align-items: center;
-        image-rendering: auto;
+        flex-direction: column;
     }
 }
     
