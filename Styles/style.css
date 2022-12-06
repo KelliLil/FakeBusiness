@@ -21,18 +21,24 @@ header div {
   gap: 1rem;
 }
 
-header,
-main,
-footer {
-  padding: 1em;
-}
-
 li {
   list-style: none;
 }
 h1 {
   font-size: 3em;
   font-weight: 500;
+}
+
+header,
+main,
+footer {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  gap: 0.5rem;
+}
+
+footer {
+  padding: 0.5rem;
 }
 
 nav a {
@@ -82,10 +88,11 @@ footer {
   }
 }
 
-@media (width >=1020px) {
-.media-big {
-    display:flex;
+@media (width < 400px) {
+  .media-big {
+    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-
+    align-items: center;
+    justify-content: center;
+  }
 }
