@@ -1,59 +1,61 @@
 :root {
-    --primary-color: #fd9b04;
+  --primary-color: #fd9b04;
 }
 
 .bg-primary {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .bg-second {
-    background-color: #f7e1da;
+  background-color: #f7e1da;
 }
 
 .bg-third {
-    background-color: #a66b59;
+  background-color: #a66b59;
 }
 
 header div {
-    align-items: center;
-    gap: 1rem;
+  align-items: center;
+  gap: 1rem;
 }
 
-header, main, footer {
-    padding: 1em;
+header,
+main,
+footer {
+  padding: 1em;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 h1 {
-    font-size: 3em;
-    font-weight: 500;
+  font-size: 3em;
+  font-weight: 500;
 }
 
 nav a {
-    text-decoration: none;
-    color: black;
-    text-transform: lowercase;
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 1em;
+  text-decoration: none;
+  color: black;
+  text-transform: lowercase;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 1em;
 }
 
 .flex {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .flex--flex {
-    flex-direction: row;
-    gap: 0;
+  flex-direction: row;
+  gap: 0;
 }
 
 label {
-    position: absolute;
+  position: absolute;
   width: 1px;
   height: 1px;
   padding: 0;
@@ -65,13 +67,12 @@ label {
 }
 
 footer {
-    align-items: center;
+  align-items: center;
 }
 
-@media (width >= 810px) {
-    .flex--flex {
-        display: flex;
-   flex-direction: column;
-    }
+@media (width = 810px) {
+  .flex--flex {
+    display: flex;
+    flex-direction: column;
+  }
 }
-    
