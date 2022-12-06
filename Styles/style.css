@@ -19,6 +19,10 @@ header div {
     gap: 1rem;
 }
 
+header, main, footer {
+    padding: 1em;
+}
+
 li {
     list-style: none;
 }
