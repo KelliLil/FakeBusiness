@@ -60,6 +60,10 @@ label {
   border-width: 0;
 }
 
+footer {
+    align-items: center;
+}
+
 @media  screen and (min-width: 600px) {
     .flex {
         display: flex;
