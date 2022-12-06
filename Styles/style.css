@@ -71,6 +71,7 @@ footer {
 }
 
 @media (width = 810px) {
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
