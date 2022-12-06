@@ -1,25 +1,25 @@
 :root {
-    --primary-color: #fd9b04;
-    --primary-second: #f7e1da;
-    --primary-third: #a66b59;
+  --primary-color: #fd9b04;
+  --primary-second: #f7e1da;
+  --primary-third: #a66b59;
 }
 .bg-color {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .bg-second {
-    background-color: var(--primary-second);
+  background-color: var(--primary-second);
 }
 
 .bg-third {
-    background-color: var(--primary-third);
+  background-color: var(--primary-third);
 }
 .flex {
-    display: flex;
-    padding: 1rem;
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .direction-col {
-    flex-direction: column;
+  flex-direction: column;
 }
-
