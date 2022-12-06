@@ -1,5 +1,7 @@
 :root {
   --primary-color: #fd9b04;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .bg-primary {
@@ -39,7 +41,9 @@ nav a {
   text-transform: lowercase;
   font-size: 1.5em;
   font-weight: bold;
-  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 
 .flex {
@@ -76,4 +80,12 @@ footer {
     flex-direction: column;
     justify-content: center;
   }
+}
+
+@media (width >=1020px) {
+.media-big {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
 }
