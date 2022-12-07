@@ -21,6 +21,10 @@ header div {
   gap: 1rem;
 }
 
+h2 {
+  gap: 1rem;
+}
+
 li {
   list-style: none;
 }
